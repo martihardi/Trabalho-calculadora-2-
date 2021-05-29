@@ -24,3 +24,11 @@ function mult() {
         document.getElementById('divi').value = (valor7 / valor8 / valor9);
         
         }
+        function sub() {
+            var valor10 = parseInt(document.getElementById('a10').value);
+            var valor11  = parseInt(document.getElementById('a11').value);
+            var valor12  = parseInt(document.getElementById('a12').value);
+            
+            document.getElementById('subt').value = (valor10 - valor11 - valor12);
+            
+            }
